@@ -19,7 +19,7 @@ Create and launch Clear Spur Mobile Car Detailing Houston as site 25 of the 100-
 - Production fallback: https://clear-spur-mobile-car-detailing-hou.vercel.app
 - Attached custom hosts: `clearspur.shop`, `www.clearspur.shop`
 - Registrar nameservers saved: `ns1.vercel-dns.com`, `ns2.vercel-dns.com`
-- Custom-domain DNS and HTTPS: propagation pending
+- Custom-domain apex and `www` HTTPS: verified live with the assigned phone
 
 ## Truth constraints
 
@@ -48,4 +48,4 @@ The confirmed street address is required for final `GMB-INFO.txt` and GeoStamp c
 
 ## Exact next action
 
-Await the confirmed street address. In a later run, verify propagated apex and `www` once, then complete `GMB-INFO.txt` and GeoStamp.
+Await the confirmed street address, then complete `GMB-INFO.txt` and GeoStamp.
