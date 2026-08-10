@@ -85,7 +85,9 @@ def main() -> int:
         if not ref or ref == "/":
             continue
         target = root / ref.lstrip("/") if ref.startswith("/") else entry.parent / ref
-        if not target.exists():
+        clean_url_target = target.with_suffix(".html") if not target.suffix else target
+        directory_target = target / "index.html"
+        if not target.exists() and not clean_url_target.exists() and not directory_target.exists():
             errors.append(f"missing local asset from <{tag}>: {raw_ref}")
 
     forbidden = {

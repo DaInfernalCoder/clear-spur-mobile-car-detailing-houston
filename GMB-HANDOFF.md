@@ -10,6 +10,7 @@ Create and launch Clear Spur Mobile Car Detailing Houston as site 25 of the 100-
 - Market: Houston, Texas
 - Registered domain: `clearspur.shop`
 - Public phone: `+1 346-509-5059`
+- Street address: `1308 Waverly St, Houston, TX 77008`
 - Registration defaults: 1 year, high privacy with consent, auto-renew off
 - Booking: https://cal.com/sumitdatta/auto-detail-service
 - Build method: cloned from a validated site family through `scripts/scaffold_sites_from_csv.py`
@@ -23,7 +24,7 @@ Create and launch Clear Spur Mobile Car Detailing Houston as site 25 of the 100-
 
 ## Truth constraints
 
-The public phone is confirmed. The street address has not been supplied; do not invent it. Licensed stock imagery is illustrative and must not be presented as completed Clear Spur work.
+The public phone and street address are confirmed as supplied by the owner. Licensed stock imagery is illustrative and must not be presented as completed Clear Spur work.
 
 ## Acceptance checklist
 
@@ -34,7 +35,7 @@ The public phone is confirmed. The street address has not been supplied; do not 
 - [x] Public GitHub repository and Vercel production project created
 - [x] Apex and `www` attached; registrar DNS saved
 - [x] Phone supplied and call links completed
-- [ ] Address supplied and final `GMB-INFO.txt` completed
+- [x] Address supplied and final `GMB-INFO.txt` completed
 - [x] Phone/address-independent logo and photo pack completed
 - [ ] GeoStamp synced
 
@@ -44,8 +45,8 @@ Clear Spur Mobile Car Detailing Houston helps Houston drivers arrange careful in
 
 ## Blocker
 
-The confirmed street address is required for final `GMB-INFO.txt` and GeoStamp completion.
+GeoStamp synchronization remains outstanding.
 
 ## Exact next action
 
-Await the confirmed street address, then complete `GMB-INFO.txt` and GeoStamp.
+Sync the confirmed address to GeoStamp.
